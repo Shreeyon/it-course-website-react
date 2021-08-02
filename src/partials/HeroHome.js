@@ -143,7 +143,7 @@ function HeroHome() {
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
                 <img
                   className="absolute"
-                  src={require("../images/message-mockup.jpeg").default}
+                  src={require("../images/message-mockup.png").default}
                   width="290"
                   height="624"
                   style={{ maxWidth: "84.33%" }}

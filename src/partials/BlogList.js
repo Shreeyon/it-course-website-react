@@ -13,10 +13,15 @@ function Instructors() {
               data-aos="fade-down"
               data-aos-delay="200"
             >
-              {/* Section title */}Late
-              <h4 className="h3 font-red-hat-display mb-8">
-                Taught by expert instructors
-              </h4>
+              <div className="max-w-3xl mx-auto text-center pb-12">
+                <h2 className="h2 font-red-hat-display">
+                  Taught by expert instructors
+                </h2>
+                <p className="text-xl text-gray-400">
+                  Get taught by ex-students who have both finished in the top 1%
+                  of I.T candidates in the 2019 Matric Finals
+                </p>
+              </div>
               {/* Articles container */}
               <div className="grid gap-12 sm:grid-cols-2 sm:gap-x-6 md:gap-y-8 items-start">
                 {/* 1st article */}
