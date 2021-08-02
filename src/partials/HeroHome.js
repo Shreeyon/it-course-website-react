@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
-
+import { HashLink } from "react-router-hash-link";
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
@@ -30,12 +30,12 @@ function HeroHome() {
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
                 <div className="flex flex-col  justify-center max-w-sm mx-auto sm:max-w-md md:mx-0">
-                  <a
+                  <HashLink
                     className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0"
-                    href="#0"
+                    to="#pricing"
                   >
                     Enroll Now
-                  </a>
+                  </HashLink>
                 </div>
                 {/* Success message */}
                 {/* <p className="text-center md:text-left mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}

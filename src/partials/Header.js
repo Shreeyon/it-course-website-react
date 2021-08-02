@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Dropdown from "../utils/Dropdown";
 import Transition from "../utils/Transition.js";
 
+import { HashLink } from "react-router-hash-link";
+import DesktopSubHeaderComponent from "./header-components/DesktopSubHeaderComponent";
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
@@ -98,50 +100,8 @@ function Header() {
           <nav className="hidden md:flex md:flex-grow">
             {/* Desktop menu links */}
             <ul className="flex flex-grow flex-wrap items-center font-medium">
-              <li>
-                <Link
-                  to="/about"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/blog"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/testimonials"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Testimonials
-                </Link>
-              </li>
-              {/* 1st level: hover */}
-              <Dropdown title="Resources">
-                {/* 2nd level: hover */}
-                <li>
-                  <Link
-                    to="/help"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
-                  >
-                    Help center
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/404"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
-                  >
-                    404
-                  </Link>
-                </li>
-              </Dropdown>
+              <DesktopSubHeaderComponent title="Contact" link="/contact" />
+              <DesktopSubHeaderComponent title="Already purchased? " link="/" />
             </ul>
 
             {/* Desktop lights switch */}
@@ -184,12 +144,12 @@ function Header() {
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
               <li>
-                <Link
-                  to="/contact"
+                <HashLink
+                  to="#pricing"
                   className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6"
                 >
                   Enroll Now
-                </Link>
+                </HashLink>
               </li>
             </ul>
           </nav>
@@ -318,55 +278,25 @@ function Header() {
                         to="/about"
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
-                        About
+                        Contact
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/blog"
+                        to="/purchased"
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
-                        Blog
+                        Already purchased
                       </Link>
                     </li>
+
                     <li>
-                      <Link
-                        to="/testimonials"
-                        className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
-                      >
-                        Testimonials
-                      </Link>
-                    </li>
-                    <li className="py-2 my-2 border-t border-b border-gray-200 dark:border-gray-800">
-                      <span className="flex text-gray-600 dark:text-gray-400 py-2">
-                        Resources
-                      </span>
-                      <ul className="pl-4">
-                        <li>
-                          <Link
-                            to="/help"
-                            className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
-                          >
-                            Help center
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to="/404"
-                            className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
-                          >
-                            404
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <Link
-                        to="/contact"
+                      <HashLink
+                        to="#pricing"
                         className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded text-white bg-teal-500 hover:bg-teal-400 transition duration-150 ease-in-out"
                       >
                         Enroll Now
-                      </Link>
+                      </HashLink>
                     </li>
                   </ul>
                 </div>

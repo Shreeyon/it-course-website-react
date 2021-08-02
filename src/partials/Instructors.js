@@ -17,10 +17,6 @@ function Instructors() {
                 <h2 className="h2 font-red-hat-display">
                   Taught by expert instructors
                 </h2>
-                <p className="text-xl text-gray-400">
-                  Get taught by ex-students who have both finished in the top 1%
-                  of I.T candidates in the 2019 Matric Finals
-                </p>
               </div>
               {/* Articles container */}
               <div className="grid gap-12 sm:grid-cols-2 sm:gap-x-6 md:gap-y-8 items-start">
@@ -30,10 +26,10 @@ function Instructors() {
                     <Link className="block mb-4" to="/blog-post">
                       <figure className="relative h-0 pb-9/16">
                         <img
-                          className="absolute inset-0 w-full h-full object-cover"
-                          src={require("../images/matric-taufeeq.png").default}
-                          width="200"
-                          height="100"
+                          className="absolute inset-0 w-half h-full object-cover"
+                          src={require("../images/matric-results.png").default}
+                          width="352"
+                          height="198"
                           alt="News 01"
                         />
                       </figure>
@@ -45,9 +41,11 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Taufeeq achieved an astounding 96% percent for the I.T
+                    matric finals in 2019. In addition, Taufeeq won the prize
+                    for the most creative PAT in the national competition. His
+                    expert teaching style guarantee's that you can achieve
+                    similiar results.
                   </p>
                 </article>
 
@@ -58,7 +56,7 @@ function Instructors() {
                       <figure className="relative h-0 pb-9/16">
                         <img
                           className="absolute inset-0 w-full h-full object-cover"
-                          src={require("../images/news-02.jpg").default}
+                          src={require("../images/dummy.png").default}
                           width="352"
                           height="198"
                           alt="News 02"
@@ -72,9 +70,10 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Shreeya achieved an measly 94% percent for the I.T matric
+                    finals in 2019. In addition, her slow typing speed means
+                    that you will not get lost while she is giving you a live
+                    demonstration of how to ace your finals.
                   </p>
                 </article>
               </div>

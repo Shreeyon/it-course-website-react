@@ -4,16 +4,12 @@ import Header from "../partials/Header";
 import PageIllustration from "../partials/PageIllustration";
 import HeroHome from "../partials/HeroHome";
 import Stats from "../partials/Stats";
-import Carousel from "../partials/Carousel";
-import Tabs from "../partials/Tabs";
-import Process from "../partials/Process";
 import PricingTables from "../partials/PricingTables";
 import TestimonialsBlocks from "../partials/TestimonialsBlocks";
-import FeaturesBlocks from "../partials/FeaturesBlocks";
 import Cta from "../partials/Cta";
 import Footer from "../partials/Footer";
-import Instructors from "../partials/BlogList";
-
+import Instructors from "../partials/Instructors";
+import Tabs from "../partials/Tabs";
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -33,9 +29,10 @@ function Home() {
         <HeroHome />
         <Stats />
         <Instructors />
+        <Cta />
         <TestimonialsBlocks />
+        <Tabs />
         <PricingTables />
-        <FeaturesBlocks />
         <Cta />
       </main>
 

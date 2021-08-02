@@ -3,10 +3,10 @@ import React from "react";
 import Header from "../partials/Header";
 import HeroBlog from "../partials/HeroBlog";
 import FeaturedPosts from "../partials/FeaturedPosts";
-import Instructors from "../partials/BlogList";
+import Instructors from "../partials/Instructors";
 import Footer from "../partials/Footer";
 
-function Blog() {
+function InstructorsSection() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -26,4 +26,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default InstructorsSection;
