@@ -138,7 +138,7 @@ function PricingTables() {
                     quickly
                   </span>
                 </li>
-                <li className="flex items-center mb-2">
+                {/* <li className="flex items-center mb-2">
                   <svg
                     className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0"
                     viewBox="0 0 12 12"
@@ -150,7 +150,7 @@ function PricingTables() {
                     One hour of consulting time with the instructors to solidify
                     your understanding
                   </span>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

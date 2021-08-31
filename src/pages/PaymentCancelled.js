@@ -1,11 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
+import HeroTestimonials from "../partials/HeroTestimonials";
+import Clients from "../partials/Clients";
+import VideoTestimonial from "../partials/VideoTestimonial";
+import TestimonialsCarousel from "../partials/TestimonialsCarousel";
+import TestimonialsCircles from "../partials/TestimonialsCircles";
+import Cta from "../partials/Cta";
 import Footer from "../partials/Footer";
-
-function PageNotFound() {
+import { Link } from "react-router-dom";
+function PaymentCancelled() {
+  const openEmail = () => {
+    window.open("mailto: taufeeq849@gmail.com");
+  };
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -36,21 +43,21 @@ function PageNotFound() {
                   className="h1 font-red-hat-display mb-4"
                   data-aos="fade-down"
                 >
-                  Oh no! Your purchase was unsuccesful.
+                  Oh no - your purchase was unsuccesful.
                 </h1>
                 <p
                   className="text-xl text-gray-600 dark:text-gray-400"
                   data-aos="fade-down"
                   data-aos-delay="150"
                 >
-                  Learn why you should buy our course.
+                  Learn more about this course
                 </p>
                 <div className="mt-8" data-aos="fade-down" data-aos-delay="300">
                   <Link
                     className="btn text-white bg-teal-500 hover:bg-teal-400 ml-3"
                     to="/"
                   >
-                    Learn mow
+                    Learn more
                   </Link>
                 </div>
               </div>
@@ -65,4 +72,4 @@ function PageNotFound() {
   );
 }
 
-export default PageNotFound;
+export default PaymentCancelled;

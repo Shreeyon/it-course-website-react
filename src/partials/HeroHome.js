@@ -16,16 +16,17 @@ function HeroHome() {
                 className="h1 lg:text-6xl mb-4 font-red-hat-display font-extrabold"
                 data-aos="fade-down"
               >
-                Ace your matric I.T finals
+                Ace your matric I.T. finals
               </h1>
               <p
                 className="text-xl text-gray-600 dark:text-gray-400"
                 data-aos="fade-down"
                 data-aos-delay="150"
               >
-                Introducing the number one resource to ace your matric finals.
-                this course will walk through the matric I.T practicals and give
-                you a comprehensive guide to answering them.
+                This course will walk you through the matric practical past
+                papers for I.T while providing detailed explanations on each of
+                the questions. Taught by instructors who finished first in their
+                year, enabling you do to the same!
               </p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
@@ -67,7 +68,7 @@ function HeroHome() {
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
                   <span>
-                    Written documents covering the though process behind each
+                    Written documents covering the thought process behind each
                     question
                   </span>
                 </li>
@@ -143,7 +144,7 @@ function HeroHome() {
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
                 <img
                   className="absolute"
-                  src={require("../images/message-mockup.png").default}
+                  src={require("../images/message-mockup-ieb.png").default}
                   width="290"
                   height="624"
                   style={{ maxWidth: "84.33%" }}
@@ -188,7 +189,7 @@ function HeroHome() {
                 <div className="relative pb-9/16">
                   <iframe
                     className="absolute w-full h-full"
-                    src="https://player.vimeo.com/video/174002812"
+                    src="https://www.youtube.com/embed/o1E37GXQ1rw"
                     title="Video"
                     allowFullScreen
                   ></iframe>

@@ -4,6 +4,12 @@ import VideoSingle from "./preview-course-content/VideoSingle";
 
 function Tabs() {
   const [category, setCategory] = useState(0);
+  const categoriesData = [
+    {
+      buttonTitle: "IEB NOV 2020 SQL Question 1",
+      index: 0,
+    },
+  ];
   const categories = [
     <CategoryButton
       buttonTitle="Setting up access"

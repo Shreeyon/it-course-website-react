@@ -56,7 +56,7 @@ function Instructors() {
                       <figure className="relative h-0 pb-9/16">
                         <img
                           className="absolute inset-0 w-full h-full object-cover"
-                          src={require("../images/dummy.png").default}
+                          src={require("../images/news-04.jpg").default}
                           width="352"
                           height="198"
                           alt="News 02"
@@ -70,10 +70,10 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Shreeya achieved an measly 94% percent for the I.T matric
-                    finals in 2019. In addition, her slow typing speed means
-                    that you will not get lost while she is giving you a live
-                    demonstration of how to ace your finals.
+                    Shreeya achieved an sublime 94% percent for the I.T matric
+                    finals in 2019. Praised as an expert tutor in her field,
+                    their is no doubt that she will enable you to ace your
+                    matric I.T practical finals.
                   </p>
                 </article>
               </div>

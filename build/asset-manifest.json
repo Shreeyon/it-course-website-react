@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f038853.chunk.css",
+    "main.js": "/static/js/main.510a93cf.chunk.js",
+    "main.js.map": "/static/js/main.510a93cf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.db35c4a8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.db35c4a8.js.map",
+    "static/js/2.141a3fbb.chunk.js": "/static/js/2.141a3fbb.chunk.js",
+    "static/js/2.141a3fbb.chunk.js.map": "/static/js/2.141a3fbb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1f038853.chunk.css.map": "/static/css/main.1f038853.chunk.css.map",
+    "static/js/2.141a3fbb.chunk.js.LICENSE.txt": "/static/js/2.141a3fbb.chunk.js.LICENSE.txt",
+    "static/media/hero-bg-02.jpg": "/static/media/hero-bg-02.d37d9f31.jpg",
+    "static/media/iphone-mockup.png": "/static/media/iphone-mockup.3f11ece3.png",
+    "static/media/matric-results.png": "/static/media/matric-results.76a78950.png",
+    "static/media/message-mockup-ieb.png": "/static/media/message-mockup-ieb.f782eb6b.png",
+    "static/media/news-04.jpg": "/static/media/news-04.ae00f8ea.jpg",
+    "static/media/play-button.svg": "/static/media/play-button.8e2bb163.svg",
+    "static/media/video-testimonial.jpg": "/static/media/video-testimonial.2e284a6f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db35c4a8.js",
+    "static/js/2.141a3fbb.chunk.js",
+    "static/css/main.1f038853.chunk.css",
+    "static/js/main.510a93cf.chunk.js"
+  ]
+}
