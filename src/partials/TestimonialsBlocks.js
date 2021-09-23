@@ -36,7 +36,7 @@ function Testimonials() {
               <div className="font-red-hat-display font-bold mt-2">
                 <cite className="not-italic">—Mandla C</cite>,{" "}
                 <p className="text-teal-500 transition duration-150 ease-in-out">
-                  Now studying CS at UCT
+                  Now studying CS at Wits
                 </p>
               </div>
             </div>
@@ -68,9 +68,9 @@ function Testimonials() {
                 purchased it my I.T marks have been soaring. “
               </blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Joe Blob</cite>,{" "}
+                <cite className="not-italic">—Sarah Anderson</cite>,{" "}
                 <p className="text-teal-500 transition duration-150 ease-in-out">
-                  Now studying CS at UCT
+                  Now studying CS at edinburgh
                 </p>
               </div>
             </div>
