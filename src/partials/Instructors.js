@@ -70,10 +70,13 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Shreeya achieved an sublime 94% percent for the I.T matric
-                    finals in 2019. Praised as an expert tutor in her field,
-                    their is no doubt that she will enable you to ace your
-                    matric I.T practical finals.
+                    Shreeya finished at the top of her I.T. class and received
+                    94% for her IEB Finals. She has been tutoring for several
+                    years and has run Matric Finals Prep workshops for
+                    Growthpoint’s development programme. Shreeya is intensely
+                    committed to empowering herself and others through
+                    education. She believes that every student has the ability
+                    to improve if given the right guidance and support.
                   </p>
                 </article>
               </div>

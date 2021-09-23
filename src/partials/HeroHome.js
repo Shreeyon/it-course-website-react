@@ -23,10 +23,7 @@ function HeroHome() {
                 data-aos="fade-down"
                 data-aos-delay="150"
               >
-                This course will walk you through the matric practical past
-                papers for I.T while providing detailed explanations on each of
-                the questions. Taught by instructors who finished first in their
-                year, enabling you do to the same!
+                A comprehensive walk-through of the practical exam past papers that offers detailed insight into the thought processes and background knowledge required for each question.
               </p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">

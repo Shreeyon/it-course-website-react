@@ -27,7 +27,6 @@ function Home() {
         </div>
         {/*  Page sections */}
         <HeroHome />
-        <Stats />
         <Instructors />
         <Cta />
         <TestimonialsBlocks />

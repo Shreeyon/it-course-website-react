@@ -10,9 +10,6 @@ import Cta from "../partials/Cta";
 import Footer from "../partials/Footer";
 import { Link } from "react-router-dom";
 function PaymentCancelled() {
-  const openEmail = () => {
-    window.open("mailto: taufeeq849@gmail.com");
-  };
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -50,14 +47,14 @@ function PaymentCancelled() {
                   data-aos="fade-down"
                   data-aos-delay="150"
                 >
-                  Learn more about this course
+                  Please retry purchasing
                 </p>
                 <div className="mt-8" data-aos="fade-down" data-aos-delay="300">
                   <Link
                     className="btn text-white bg-teal-500 hover:bg-teal-400 ml-3"
                     to="/"
                   >
-                    Learn more
+                    Purchase Course
                   </Link>
                 </div>
               </div>

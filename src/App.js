@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
-
+import PaymentConfirmed from "./pages/PaymentConfirmed";
+import PaymentCancelled from "./pages/PaymentCancelled";
 import "./css/style.scss";
 
 import AOS from "aos";
@@ -31,6 +32,12 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/payment-confirmed">
+          <PaymentConfirmed />
+        </Route>
+        <Route exact path="/payment-cancelled">
+          <PaymentCancelled />
         </Route>
       </Switch>
     </>

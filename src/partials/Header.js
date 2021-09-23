@@ -100,8 +100,14 @@ function Header() {
           <nav className="hidden md:flex md:flex-grow">
             {/* Desktop menu links */}
             <ul className="flex flex-grow flex-wrap items-center font-medium">
-              <DesktopSubHeaderComponent title="Contact" link="/contact" />
-              <DesktopSubHeaderComponent title="Already purchased? " link="/" />
+              <DesktopSubHeaderComponent
+                title="Already purchased"
+                link="https://aceitcoding.thinkific.com/users/sign_in"
+              />
+              <DesktopSubHeaderComponent
+                title="Contact"
+                link="mailto:taufeeq849@gmail.com"
+              />
             </ul>
 
             {/* Desktop lights switch */}
@@ -282,12 +288,17 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/purchased"
+                      <button
+                        onClick={() => {
+                          window.open(
+                            "https://aceitcoding.thinkific.com/users/sign_in",
+                            "_blank"
+                          );
+                        }}
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
                         Already purchased
-                      </Link>
+                      </button>
                     </li>
 
                     <li>
