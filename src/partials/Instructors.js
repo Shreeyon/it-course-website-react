@@ -41,10 +41,10 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Taufeeq achieved an astounding 96% percent for the I.T
+                    Taufeeq achieved an astounding 96% percent for the I.T.
                     matric finals in 2019. In addition, Taufeeq won the prize
                     for the most creative PAT in the national competition. His
-                    expert teaching style guarantee's that you can achieve
+                    expert teaching style guarantees that you can achieve
                     similiar results.
                   </p>
                 </article>
@@ -56,7 +56,7 @@ function Instructors() {
                       <figure className="relative h-0 pb-9/16">
                         <img
                           className="absolute inset-0 w-full h-full object-cover"
-                          src={require("../images/news-04.jpg").default}
+                          src={require("../images/shreeya-2.jpg").default}
                           width="352"
                           height="198"
                           alt="News 02"
@@ -73,9 +73,8 @@ function Instructors() {
                     Shreeya finished at the top of her I.T. class and received
                     94% for her IEB Finals. She has been tutoring for several
                     years and has run Matric Finals Prep workshops for
-                    Growthpoint’s development programme. Shreeya is intensely
-                    committed to empowering herself and others through
-                    education. She believes that every student has the ability
+                    Growthpoint’s development programme. Shreeya firmly 
+                    believes that every student has the ability
                     to improve if given the right guidance and support.
                   </p>
                 </article>
