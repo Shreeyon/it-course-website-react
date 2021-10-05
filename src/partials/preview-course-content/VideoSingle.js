@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
+import Modal from "../../utils/Modal";
 export default function VideoSingle(props) {
+  const [videoModalOpen, setVideoModalOpen] = useState(false);
   return (
     <div className={props.isVisible ? undefined : "hidden"}>
       <div className="relative">
@@ -16,6 +18,12 @@ export default function VideoSingle(props) {
             <a
               className="hover:opacity-75 transition duration-150 ease-in-out"
               href="#0"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setVideoModalOpen(true);
+              }}
+              aria-controls="modal"
             >
               <img
                 src={require("../../images/play-button.svg").default}
@@ -38,6 +46,22 @@ export default function VideoSingle(props) {
           </div>
         </div>
       </div>
+      {/* Modal */}
+      <Modal
+        id="modal"
+        ariaLabel="modal-headline"
+        show={videoModalOpen}
+        handleClose={() => setVideoModalOpen(false)}
+      >
+        <div className="relative pb-9/16">
+          <iframe
+            className="absolute w-full h-full"
+            src={props.videoUrl}
+            title="Video"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </Modal>
     </div>
   );
 }

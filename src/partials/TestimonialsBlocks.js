@@ -10,13 +10,6 @@ function Testimonials() {
             {/* 1st testimonial */}
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
-                <img
-                  className="rounded-full"
-                  src={require("../images/testimonial-01.jpg").default}
-                  width="56"
-                  height="56"
-                  alt="Testimonial 01"
-                />
                 <svg
                   className="absolute top-0 right-0 mt-1 -mr-8"
                   width="27"
@@ -44,13 +37,6 @@ function Testimonials() {
             {/* 2nd testimonial */}
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
-                <img
-                  className="rounded-full"
-                  src={require("../images/testimonial-02.jpg").default}
-                  width="56"
-                  height="56"
-                  alt="Testimonial 02"
-                />
                 <svg
                   className="absolute top-0 right-0 mt-1 -mr-8"
                   width="27"
@@ -64,13 +50,14 @@ function Testimonials() {
                 </svg>
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                “ This is a great course and the value is amazing. Since I
-                purchased it my I.T marks have been soaring. “
+                “ I struggled with certain practical components of the I.T
+                practicals. After purchasing the course, I understood exactly
+                what was required of me. I recommend it to all students! “
               </blockquote>
               <div className="font-red-hat-display font-bold mt-2">
                 <cite className="not-italic">—Sarah Anderson</cite>,{" "}
                 <p className="text-teal-500 transition duration-150 ease-in-out">
-                  Now studying CS at edinburgh
+                  Now studying CS at Edinburgh
                 </p>
               </div>
             </div>

@@ -4,15 +4,10 @@ import VideoSingle from "./preview-course-content/VideoSingle";
 
 function Tabs() {
   const [category, setCategory] = useState(0);
-  const categoriesData = [
-    {
-      buttonTitle: "IEB NOV 2020 SQL Question 1",
-      index: 0,
-    },
-  ];
+
   const categories = [
     <CategoryButton
-      buttonTitle="Setting up access"
+      buttonTitle="2020 IEB SQL Q1.1 Preview"
       category={category}
       isSelected={category === 0}
       setCategory={() => {
@@ -20,59 +15,26 @@ function Tabs() {
       }}
     />,
     <CategoryButton
-      buttonTitle="Setting up java"
+      buttonTitle="2020 IEB Java Q2 Preview"
       category={category}
       isSelected={category === 1}
       setCategory={() => {
         setCategory(1);
       }}
     />,
-    <CategoryButton
-      buttonTitle="First SQL question"
-      category={category}
-      isSelected={category === 2}
-      setCategory={() => {
-        setCategory(2);
-      }}
-    />,
-    <CategoryButton
-      buttonTitle="Introduction to Java"
-      category={category}
-      isSelected={category === 3}
-      setCategory={() => {
-        setCategory(3);
-      }}
-    />,
-    <CategoryButton
-      buttonTitle="First java question"
-      category={category}
-      isSelected={category === 4}
-      setCategory={() => {
-        setCategory(4);
-      }}
-    />,
   ];
   const videos = [
     <VideoSingle
       isVisible={category === 0}
-      title="Setting up access"
-      length="2 min"
+      title="2020 IEB SQL Q1.1 Preview"
+      length="4 mins"
+      videoUrl="https://www.youtube.com/embed/O7sy7w6DYaU"
     />,
     <VideoSingle
       isVisible={category === 1}
-      title="Setting up java"
-      length="2 min"
-    />,
-    <VideoSingle isVisible={category === 2} title="SQL Q1.1" length="2 min" />,
-    <VideoSingle
-      isVisible={category === 3}
-      title="Introduction to the Java Section"
-      length="2 min"
-    />,
-    <VideoSingle
-      isVisible={category === 4}
-      title="First java question"
-      length="2 min"
+      title="2020 IEB Java Q2 Preview"
+      length="13 mins"
+      videoUrl="https://www.youtube.com/embed/iRRNTJCgnDU"
     />,
   ];
   return (

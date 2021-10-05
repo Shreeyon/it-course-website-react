@@ -2,7 +2,7 @@ import React from "react";
 
 function PricingTables() {
   const paymentUrl =
-    "https://www.payfast.co.za/eng/process?cmd=_paynow&receiver=18147143&item_name=Purchase+of+I.T+courses&item_description=Buy+full+access+to+the+matric+courses+provided+by+ACE+IT.&amount=899.00&return_url=https%3A%2F%2Face-it.tech%2Fpayment-confirmed&cancel_url=https%3A%2F%2Face-it.tech%2Fpayment-cancelled";
+    "https://www.payfast.co.za/eng/process/payment/14bd479c-6563-4bf6-aa99-31f4b96c8dd1";
   const onPaymentClicked = () => {
     window.open(paymentUrl, "__blank");
   };

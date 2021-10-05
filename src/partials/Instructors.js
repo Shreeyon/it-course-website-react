@@ -23,10 +23,10 @@ function Instructors() {
                 {/* 1st article */}
                 <article className="flex flex-col h-full">
                   <header>
-                    <Link className="block mb-4" to="/blog-post">
+                    <Link className="block mb-4">
                       <figure className="relative h-0 pb-9/16">
                         <img
-                          className="absolute inset-0 w-half h-full object-cover"
+                          className="absolute  w-half object-cover"
                           src={require("../images/matric-results.png").default}
                           width="352"
                           height="198"
@@ -34,7 +34,7 @@ function Instructors() {
                         />
                       </figure>
                     </Link>
-                    <Link className="hover:underline" to="/blog-post">
+                    <Link className="hover:underline">
                       <h3 className="h4 font-red-hat-display mb-2">
                         Taufeeq Razak
                       </h3>
@@ -52,7 +52,7 @@ function Instructors() {
                 {/* 2nd article */}
                 <article className="flex flex-col h-full">
                   <header>
-                    <Link className="block mb-4" to="/blog-post">
+                    <Link className="block mb-4">
                       <figure className="relative h-0 pb-9/16">
                         <img
                           className="absolute inset-0 w-full h-full object-cover"
@@ -63,7 +63,7 @@ function Instructors() {
                         />
                       </figure>
                     </Link>
-                    <Link className="hover:underline" to="/blog-post">
+                    <Link className="hover:underline">
                       <h3 className="h4 font-red-hat-display mb-2">
                         Shreeya Khoosal
                       </h3>
