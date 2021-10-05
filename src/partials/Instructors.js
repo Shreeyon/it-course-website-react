@@ -26,8 +26,8 @@ function Instructors() {
                     <Link className="block mb-4">
                       <figure className="relative h-0 pb-9/16">
                         <img
-                          className="absolute  w-half object-cover"
-                          src={require("../images/matric-results.png").default}
+                          className="absolute h-full w-full  object-scale-down"
+                          src={require("../images/profile-pic.jpg").default}
                           width="352"
                           height="198"
                           alt="News 01"
@@ -55,7 +55,7 @@ function Instructors() {
                     <Link className="block mb-4">
                       <figure className="relative h-0 pb-9/16">
                         <img
-                          className="absolute inset-0 w-full h-full object-cover"
+                          className="absolute inset-0 w-full h-full object-scale-down"
                           src={require("../images/shreeya-2.jpg").default}
                           width="352"
                           height="198"
@@ -73,9 +73,9 @@ function Instructors() {
                     Shreeya finished at the top of her I.T. class and received
                     94% for her IEB Finals. She has been tutoring for several
                     years and has run Matric Finals Prep workshops for
-                    Growthpoint’s development programme. Shreeya firmly 
-                    believes that every student has the ability
-                    to improve if given the right guidance and support.
+                    Growthpoint’s development programme. Shreeya firmly believes
+                    that every student has the ability to improve if given the
+                    right guidance and support.
                   </p>
                 </article>
               </div>

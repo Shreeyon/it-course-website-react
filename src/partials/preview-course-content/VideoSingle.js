@@ -8,7 +8,7 @@ export default function VideoSingle(props) {
       <div className="relative">
         <img
           className="w-full"
-          src={require("../../images/video-thumb.jpg").default}
+          src={require("../../images/logo.png").default}
           width="352"
           height="264"
           alt="Video thumbnail 01"

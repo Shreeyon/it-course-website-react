@@ -1,13 +1,14 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Dropdown from "../utils/Dropdown";
 import Transition from "../utils/Transition.js";
 
 import { HashLink } from "react-router-hash-link";
 import DesktopSubHeaderComponent from "./header-components/DesktopSubHeaderComponent";
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-
+  const contentWebsite =
+    "https://ace-matric-coding.teachable.com/courses/ace-matric-coding-full-walkthrough-of-ieb-practical-past-papers/lectures/35353876";
+  const contactLink = "@mailto:taufeeq849@gmail.com";
   const mobileNav = useRef(null);
 
   // close the mobile menu on click outside
@@ -51,13 +52,17 @@ function Header() {
 
   return (
     <header className="absolute w-full z-30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto py-2 px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="flex-shrink-0 mr-5">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
-              <img src={require("../images/logo.png")}></img>
+            <Link to="/" className="block" aria-label="Ace matric coding">
+              <img
+                src={require("../images/logo.png").default}
+                width="150"
+                height="150"
+              ></img>
             </Link>
           </div>
 
@@ -67,12 +72,9 @@ function Header() {
             <ul className="flex flex-grow flex-wrap items-center font-medium">
               <DesktopSubHeaderComponent
                 title="Already purchased"
-                link="https://aceitcoding.thinkific.com/users/sign_in"
+                link={contentWebsite}
               />
-              <DesktopSubHeaderComponent
-                title="Contact"
-                link="mailto:taufeeq849@gmail.com"
-              />
+              <DesktopSubHeaderComponent title="Contact" link={contactLink} />
             </ul>
 
             {/* Desktop lights switch */}
@@ -245,20 +247,17 @@ function Header() {
                   {/* Links */}
                   <ul>
                     <li>
-                      <Link
-                        to="/about"
+                      <a
+                        href={contactLink}
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
                         Contact
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <button
                         onClick={() => {
-                          window.open(
-                            "https://aceitcoding.thinkific.com/users/sign_in",
-                            "_blank"
-                          );
+                          window.open(contentWebsite, "_blank");
                         }}
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
