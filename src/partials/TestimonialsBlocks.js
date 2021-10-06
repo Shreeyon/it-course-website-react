@@ -31,7 +31,7 @@ function Testimonials() {
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                 “ This course is fantastic! It covers everything you need to
-                know for the I.T matric practical past papers “
+                know for the I.T. matric practical past papers “
               </blockquote>
               <div className="font-red-hat-display font-bold mt-2">
                 <cite className="not-italic">—Mandla C</cite>,{" "}
@@ -64,13 +64,12 @@ function Testimonials() {
                 </svg>
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                “ This is a great course and the value is amazing. Since I
-                purchased it my I.T marks have been soaring. “
+                “ I found this course so informative and engaging. I would definitely recommend it to I.T. students! “
               </blockquote>
               <div className="font-red-hat-display font-bold mt-2">
                 <cite className="not-italic">—Sarah Anderson</cite>,{" "}
                 <p className="text-teal-500 transition duration-150 ease-in-out">
-                  Now studying CS at edinburgh
+                  Now studying CS at Edinburgh
                 </p>
               </div>
             </div>

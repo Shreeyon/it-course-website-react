@@ -41,9 +41,11 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Taufeeq achieved an astounding 96% percent for the I.T.
-                    matric finals in 2019. In addition, Taufeeq won the prize
-                    for the most creative PAT in the national competition. His
+                    Matriculating from St John's College, Taufeeq achieved an
+                     astounding 96% percent for the I.T.
+                    IEB finals in 2019. In addition, Taufeeq won the prize
+                    for the most creative PAT in the national competition. Now studying
+                    Computer Science at Wits, his
                     expert teaching style guarantees that you can achieve
                     similiar results.
                   </p>
@@ -70,12 +72,11 @@ function Instructors() {
                     </Link>
                   </header>
                   <p className="text-gray-600 dark:text-gray-400 flex-grow">
-                    Shreeya finished at the top of her I.T. class and received
+                    Shreeya finished at the top of her I.T. class at Roedean School and received
                     94% for her IEB Finals. She has been tutoring for several
                     years and has run Matric Finals Prep workshops for
-                    Growthpoint’s development programme. Shreeya firmly 
-                    believes that every student has the ability
-                    to improve if given the right guidance and support.
+                    Growthpoint’s development programme. Shreeya is now studying Computer Science at UCT
+                    and is intensely committed to helping others through education. 
                   </p>
                 </article>
               </div>
