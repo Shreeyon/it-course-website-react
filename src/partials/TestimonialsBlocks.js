@@ -23,13 +23,16 @@ function Testimonials() {
                 </svg>
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                “ This course is fantastic! It covers everything you need to
-                know for the I.T matric practical past papers “
+                “ When studying for my I.T practical finals, going through the
+                memo was simply not enough. That is why I recommend this course
+                to all I.T students. Not only does it provide detailed solutions
+                to the past papers, it also explains exactly how to tackle each
+                question! “
               </blockquote>
               <div className="font-red-hat-display font-bold mt-2">
                 <cite className="not-italic">—Mandla C</cite>,{" "}
                 <p className="text-teal-500 transition duration-150 ease-in-out">
-                  Now studying CS at Wits
+                  Now studying Computer Science at Wits
                 </p>
               </div>
             </div>
@@ -50,9 +53,8 @@ function Testimonials() {
                 </svg>
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                “ I struggled with certain practical components of the I.T
-                practicals. After purchasing the course, I understood exactly
-                what was required of me. I recommend it to all students! “
+                “ This course was very thorough and engaging. I would definitely
+                recommend it to other I.T. students! “
               </blockquote>
               <div className="font-red-hat-display font-bold mt-2">
                 <cite className="not-italic">—Sarah Anderson</cite>,{" "}

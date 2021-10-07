@@ -22,6 +22,22 @@ function Tabs() {
         setCategory(1);
       }}
     />,
+    <CategoryButton
+      buttonTitle="2018 IEB SQL Q2 Preview"
+      category={category}
+      isSelected={category === 2}
+      setCategory={() => {
+        setCategory(2);
+      }}
+    />,
+    <CategoryButton
+      buttonTitle="2018 IEB Java Q2 Preview"
+      category={category}
+      isSelected={category === 3}
+      setCategory={() => {
+        setCategory(3);
+      }}
+    />,
   ];
   const videos = [
     <VideoSingle
@@ -35,6 +51,18 @@ function Tabs() {
       title="2020 IEB Java Q2 Preview"
       length="13 mins"
       videoUrl="https://www.youtube.com/embed/iRRNTJCgnDU"
+    />,
+    <VideoSingle
+      isVisible={category === 2}
+      title="2018 IEB Java Q2 Preview"
+      length="4 mins"
+      videoUrl="https://www.youtube.com/embed/VKsbF60f5w8"
+    />,
+    <VideoSingle
+      isVisible={category === 3}
+      title="2018 IEB Java Q2 Preview"
+      length="18 mins"
+      videoUrl="https://www.youtube.com/embed/CX__yUMVlvg"
     />,
   ];
   return (

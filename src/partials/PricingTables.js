@@ -50,12 +50,12 @@ function PricingTables() {
                 </div>
               </div>
               <div className="mt-24">
-                <button
+                <a
+                  href="https://www.payfast.co.za/eng/process?cmd=_paynow&amp;receiver=18193834&amp;item_name=IT+Practical+Exam+Course&amp;item_description=A+comprehensive+walk-through+of+the+IT+practical+exam+with+detailed+question+by+question+explanations.&amp;amount=899.00&amp;return_url=https%3A%2F%2Facematriccoding.web.app%2Fpayment-confirmed&amp;cancel_url=https%3A%2F%2Facematriccoding.web.app%2Fpayment-cancelled"
                   className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full"
-                  onClick={onPaymentClicked}
                 >
                   Get Access
-                </button>
+                </a>
               </div>
             </div>
 

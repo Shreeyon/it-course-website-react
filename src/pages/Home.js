@@ -27,10 +27,10 @@ function Home() {
         </div>
         {/*  Page sections */}
         <HeroHome />
+        <Tabs />
         <Instructors />
         <Cta />
         <TestimonialsBlocks />
-        <Tabs />
         <PricingTables />
         <Cta />
       </main>
